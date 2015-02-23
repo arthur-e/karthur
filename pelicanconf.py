@@ -2,15 +2,14 @@
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
 
-AUTHOR = 'Arthur'
+AUTHOR = 'K. Arthur Endsley'
 SITENAME = 'K. Arthur Endsley'
 SITEURL = ''
-THEME = 'themes/testpattern'
+#SITEURL = 'http://karthur.org'
+THEME = 'themes/karthur'
 
 PATH = 'content'
-
 TIMEZONE = 'Europe/Paris'
-
 DEFAULT_LANG = 'en'
 
 # Feed generation is usually not desired when developing
@@ -21,16 +20,27 @@ AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
 # Blogroll
-LINKS = (('Pelican', 'http://getpelican.com/'),
-         ('Python.org', 'http://python.org/'),
-         ('Jinja2', 'http://jinja.pocoo.org/'),
-         ('You can modify those links in your config file', '#'),)
+LINKS = (('Michigan Tech Research Institute (MTRI)', 'http://www.mtri.org/'),
+        ('UMich School of Natural Resources and Environment', 'http://snre.umich.edu/'),)
+
+PORTFOLIO = (('Bering Glacier Monitoring', 'http://www.beringglacier.org/gass/'),
+        ('Great Lakes Remote Sensing', 'http://greatlakesremotesensing.org/'))
 
 # Social widget
-SOCIAL = (('You can add links in your config file', '#'),
-          ('Another social link', '#'),)
+SOCIAL = (('GitHub', 'http://github.com/arthur-e/'),
+        ('LinkedIn', 'www.linkedin.com/in/endsley'),
+        ('BitBucket', 'http://bitbucket.org/kaendsle'),)
 
 DEFAULT_PAGINATION = 10
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
+
+# Theme info
+BOOTSTRAP_THEME = 'sandstone'
+CC_LICENSE = 'CC-BY-NC-SA'
+CUSTOM_CSS = 'theme/css/custom.css'
+DISPLAY_ARTICLE_INFO_ON_INDEX = True
+DISPLAY_CATEGORY_IN_BREADCRUMBS = True
+DISPLAY_TAGS_INLINE = True
+PYGMENTS_STYLE = 'solarizeddark'

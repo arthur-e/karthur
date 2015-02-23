@@ -1,0 +1,68 @@
+article {
+    font-size: 16px;
+    text-align: justify;
+}
+body { font-family: "HelveticaNeue-CondensedBold","Helvetica Neue CE 600 Condensed","Helvetica Neue LT Condensed","Helvetica Neue 600 Condensed","HelveticaNeue-BoldCondensed","Helvetica Neue BoldCondensed","Helvetica Neue",Helvetica,Arial,sans-serif; }
+h1,h2,h3,h4,h5,h6,
+.navbar,
+.panel,
+.post-info {
+    text-align: left;
+    font-family: CabinSemiBold,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+hr { border-top: 1px solid #ccc; }
+
+.navbar .nav>li>a {
+    font-size: 16px;
+    color: #9bf;
+}
+
+/* Article tiles on their own page */
+.page-header {
+    margin: 20px 0 20px;
+    border: none;
+    padding-bottom: 0;
+}
+.page-header .fa-lg {
+    color: #aaa;
+    font-size: 36px;
+    vertical-align: -5%;
+}
+
+.panel {
+    box-shadow: none;
+    border-bottom: 1px solid #ccc;
+    border-radius: 0;
+    padding-bottom: 20px;
+}
+.panel-body { padding: 0 0 0 5px; }
+
+/* The date, tags below post titles */
+.post-info {
+    color:#006699;
+    line-height: 28px;
+}
+/* Makes total width of icon 20px */
+.post-info .published .fa-calendar { padding-right: 5px; }
+.post-info .fa-tags { padding-right: 3px; }
+
+/* ... */
+.read-on {
+    color: #666;
+    font-size: 20px;
+    line-height: 16px;
+    vertical-align: bottom;
+}
+
+.tagcloud li {
+    color: #0099FF;
+    font-size: 11px;
+}
+
+.well-sm { padding: 0; }
+
+#links li.list-group-item,
+#portfolio li.list-group-item { padding: 5px 0; }
+#social li.list-group-item { padding: 5px 15px; }
+
+#sidebar { margin-top: 20px; }
