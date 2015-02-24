@@ -2,7 +2,14 @@ article {
     font-size: 16px;
     text-align: justify;
 }
-body { font-family: "HelveticaNeue-CondensedBold","Helvetica Neue CE 600 Condensed","Helvetica Neue LT Condensed","Helvetica Neue 600 Condensed","HelveticaNeue-BoldCondensed","Helvetica Neue BoldCondensed","Helvetica Neue",Helvetica,Arial,sans-serif; }
+
+body {
+    background-color: #eee;
+    font-family: "HelveticaNeue-CondensedBold","Helvetica Neue CE 600 Condensed","Helvetica Neue LT Condensed","Helvetica Neue 600 Condensed","HelveticaNeue-BoldCondensed","Helvetica Neue BoldCondensed","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+footer { margin-bottom: 20px; }
+
 h1,h2,h3,h4,h5,h6,
 .navbar,
 .panel,
@@ -10,15 +17,30 @@ h1,h2,h3,h4,h5,h6,
     text-align: left;
     font-family: CabinSemiBold,"Helvetica Neue",Helvetica,Arial,sans-serif;
 }
-hr { border-top: 1px solid #ccc; }
 
+hr { border-top: 1px solid #ccc; }
+ul { list-style-type: square; }
+
+.attribution { color: #999; }
+.entry-content a {
+    color: #069;
+}
+.list-group:last-child {
+    margin-bottom: 0;
+} /* Removes extra margin at bottom of sidebar */
+
+.navbar { margin-bottom: 50px; } /* Top navigation bar */
+.navbar-default { border-color: #0af; }
+.navbar-fixed-top { border-width: 0 0 5px; }
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:hover,
+.navbar-default .navbar-nav>.active>a:focus { background-color:#666; }
 .navbar .nav>li>a {
-    font-size: 16px;
-    color: #9bf;
+    font-size: 14px;
+    color: #9df;
 }
 
-/* Article tiles on their own page */
-.page-header {
+.page-header { /* Article tiles on their own page */
     margin: 20px 0 20px;
     border: none;
     padding-bottom: 0;
@@ -29,7 +51,8 @@ hr { border-top: 1px solid #ccc; }
     vertical-align: -5%;
 }
 
-.panel {
+.panel { /* e.g. Holds post information, date published */
+    background: transparent;
     box-shadow: none;
     border-bottom: 1px solid #ccc;
     border-radius: 0;
@@ -37,32 +60,55 @@ hr { border-top: 1px solid #ccc; }
 }
 .panel-body { padding: 0 0 0 5px; }
 
-/* The date, tags below post titles */
-.post-info {
-    color:#006699;
+.post-info { /* The date, tags below post titles */
     line-height: 28px;
+    margin-bottom: 0;
 }
-/* Makes total width of icon 20px */
-.post-info .published .fa-calendar { padding-right: 5px; }
+.post-info .published .fa-calendar { /* Makes total width of icon 20px */
+    padding-right: 5px;
+}
 .post-info .fa-tags { padding-right: 3px; }
 
-/* ... */
-.read-on {
-    color: #666;
+.read-on { /* ... */
     font-size: 20px;
     line-height: 16px;
     vertical-align: bottom;
 }
 
 .tagcloud li {
-    color: #0099FF;
+    color: #08c;
     font-size: 11px;
 }
 
+.well {
+    background-color: #fff;
+    border: 1px solid #ccc;
+}
 .well-sm { padding: 0; }
 
+#banner {
+    margin-top: 5px;
+    background-color: #000;
+    background-position: right center;
+    background-size: auto 500px;
+}
+#banner .intro {
+    color: #0af;
+    opacity: 1.0;
+}
+#banner h1,
+#banner p {
+    font-family: Cabin,inherit;
+    font-style: italic;
+}
+/*
+    -moz-box-shadow: inset 0px 0px 5px 1px #999;
+    -webkit-box-shadow: inset 0px 0px 5px 1px #999;
+    box-shadow: inset 0px 0px 5px 1px #999;
+*/
+
+#content { margin-top: 20px; }
 #links li.list-group-item,
 #portfolio li.list-group-item { padding: 5px 0; }
 #social li.list-group-item { padding: 5px 15px; }
-
 #sidebar { margin-top: 20px; }

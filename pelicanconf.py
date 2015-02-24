@@ -20,11 +20,13 @@ AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
 # Blogroll
-LINKS = (('Michigan Tech Research Institute (MTRI)', 'http://www.mtri.org/'),
-        ('UMich School of Natural Resources and Environment', 'http://snre.umich.edu/'),)
+LINKS = (('Michigan Tech Research Institute', 'http://www.mtri.org/'),
+        ('UMich School of Natural Resources and Environment', 'http://snre.umich.edu/'),
+        ('North Slope Science Initiative', 'http://northslope.org/'),)
 
-PORTFOLIO = (('Bering Glacier Monitoring', 'http://www.beringglacier.org/gass/'),
-        ('Great Lakes Remote Sensing', 'http://greatlakesremotesensing.org/'))
+PORTFOLIO = (('Carbon Flux Visualization', 'http://spatial.mtri.org/flux/'),
+        ('Bering Glacier Monitoring', 'http://www.beringglacier.org/gass/'),
+        ('Great Lakes Remote Sensing', 'http://greatlakesremotesensing.org/'),)
 
 # Social widget
 SOCIAL = (('GitHub', 'http://github.com/arthur-e/'),
@@ -37,10 +39,15 @@ DEFAULT_PAGINATION = 10
 #RELATIVE_URLS = True
 
 # Theme info
+BANNER = 'theme/images/kml_globe.jpg'
+BANNER_TITLE = 'Computational Geoscience & Remote Sensing'
+BANNER_SUBTITLE = '''
+Articles on systematic observation, modeling, and analysis of the Earth's surface changes&mdash;<a href="http://spatial.mtri.org/flux/">Visualization of spatially and temporally varying phenomena <i class="fa fa-external-link-square"></i></a>
+'''
 BOOTSTRAP_THEME = 'sandstone'
 CC_LICENSE = 'CC-BY-NC-SA'
 CUSTOM_CSS = 'theme/css/custom.css'
 DISPLAY_ARTICLE_INFO_ON_INDEX = True
 DISPLAY_CATEGORY_IN_BREADCRUMBS = True
 DISPLAY_TAGS_INLINE = True
-PYGMENTS_STYLE = 'solarizeddark'
+PYGMENTS_STYLE = 'tango'
