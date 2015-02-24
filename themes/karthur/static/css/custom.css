@@ -1,3 +1,5 @@
+/* All theme colors can be found at: http://www.0to255.com/006699 */
+
 article,
 .entry-content {
     font-size: 16px;
@@ -33,10 +35,6 @@ ul {
 .attribution { color: #999; }
 
 .entry-content a { color: #069; }
-.entry-content img {
-    float: left;
-    margin: 0 20px 20px 0;
-}
 .entry-content h1,h2,h3,h4,h5,h6 { clear: both; }
 
 .list-group:last-child {
@@ -52,6 +50,14 @@ ul {
 .navbar .nav>li>a {
     font-size: 14px;
     color: #9df;
+}
+
+.page-content img {
+    float: left;
+    margin: 0 20px 20px 0;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
 }
 
 .page-header { /* Article tiles on their own page */
