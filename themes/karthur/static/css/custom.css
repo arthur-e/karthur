@@ -1,4 +1,5 @@
-article {
+article,
+.entry-content {
     font-size: 16px;
     text-align: justify;
 }
@@ -6,6 +7,11 @@ article {
 body {
     background-color: #eee;
     font-family: "HelveticaNeue-CondensedBold","Helvetica Neue CE 600 Condensed","Helvetica Neue LT Condensed","Helvetica Neue 600 Condensed","HelveticaNeue-BoldCondensed","Helvetica Neue BoldCondensed","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+code {
+    color: #069;
+    background-color: #cef;
 }
 
 footer { margin-bottom: 20px; }
@@ -19,12 +25,20 @@ h1,h2,h3,h4,h5,h6,
 }
 
 hr { border-top: 1px solid #ccc; }
-ul { list-style-type: square; }
+ul {
+    list-style-type: square;
+    overflow: auto;
+}
 
 .attribution { color: #999; }
-.entry-content a {
-    color: #069;
+
+.entry-content a { color: #069; }
+.entry-content img {
+    float: left;
+    margin: 0 20px 20px 0;
 }
+.entry-content h1,h2,h3,h4,h5,h6 { clear: both; }
+
 .list-group:last-child {
     margin-bottom: 0;
 } /* Removes extra margin at bottom of sidebar */

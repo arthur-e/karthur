@@ -8,6 +8,12 @@ SITEURL = ''
 #SITEURL = 'http://karthur.org'
 THEME = 'themes/karthur'
 
+DISPLAY_PAGES_ON_MENU = True
+
+ARTICLE_PATHS = ['blog']
+ARTICLE_SAVE_AS = '{date:%Y}/{slug}.html'
+ARTICLE_URL = '{date:%Y}/{slug}.html'
+
 PATH = 'content'
 TIMEZONE = 'Europe/Paris'
 DEFAULT_LANG = 'en'
@@ -50,4 +56,4 @@ CUSTOM_CSS = 'theme/css/custom.css'
 DISPLAY_ARTICLE_INFO_ON_INDEX = True
 DISPLAY_CATEGORY_IN_BREADCRUMBS = True
 DISPLAY_TAGS_INLINE = True
-PYGMENTS_STYLE = 'tango'
+PYGMENTS_STYLE = 'solarizeddark'
