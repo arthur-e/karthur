@@ -13,6 +13,8 @@ DISPLAY_PAGES_ON_MENU = True
 ARTICLE_PATHS = ['blog']
 ARTICLE_SAVE_AS = '{date:%Y}/{slug}.html'
 ARTICLE_URL = '{date:%Y}/{slug}.html'
+STATIC_PATHS = ['images']
+PAGE_PATHS = ['pages']
 
 PATH = 'content'
 TIMEZONE = 'Europe/Paris'
@@ -48,7 +50,7 @@ DEFAULT_PAGINATION = 10
 BANNER = 'theme/images/kml_globe.jpg'
 BANNER_TITLE = 'Computational Geoscience & Remote Sensing'
 BANNER_SUBTITLE = '''
-I write about systematic observation, modeling, and analysis of the Earth's surface changes&mdash;<a href="http://spatial.mtri.org/flux/">Visualization of spatially and temporally varying phenomena <i class="fa fa-external-link-square"></i></a>
+I write about systematic observation, modeling, and analysis of the Earth's surface changes&mdash;<a href="http://spatial.mtri.org/flux/">I study the visualization of spatially and temporally varying phenomena <i class="fa fa-external-link-square"></i></a>
 '''
 BOOTSTRAP_THEME = 'sandstone'
 CC_LICENSE = 'CC-BY-NC-SA'

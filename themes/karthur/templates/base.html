@@ -81,6 +81,8 @@
     {% if CUSTOM_CSS %}
         <link href="{{ SITEURL }}/{{ CUSTOM_CSS }}" rel="stylesheet">
     {% endif %}
+    {% block css %}
+    {% endblock %}
     {% if SHARIFF %}
         <link href="{{ SITEURL }}/theme/css/shariff/shariff.min.css" rel="stylesheet">
     {% endif %}
@@ -152,7 +154,7 @@
     {% block banner %}{% endblock %}
 {% endif %}
 <!-- End Banner -->
-<div class="container{% if BOOTSTRAP_FLUID %}-fluid{% endif %}" id="content">
+<div class="container{% if BOOTSTRAP_FLUID %}-fluid{% endif %}" id="main">
     <div class="row">
         {% if not HIDE_SIDEBAR or ABOUT_ME %}
         <div class="col-sm-9">

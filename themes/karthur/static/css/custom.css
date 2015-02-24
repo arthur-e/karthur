@@ -127,7 +127,7 @@ ul {
     box-shadow: inset 0px 0px 5px 1px #999;
 */
 
-#content { margin-top: 20px; }
+#main { margin-top: 20px; }
 #links li.list-group-item,
 #portfolio li.list-group-item { padding: 5px 0; }
 #social li.list-group-item { padding: 5px 15px; }

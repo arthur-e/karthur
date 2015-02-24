@@ -1,0 +1,35 @@
+{% extends "page.html" %}
+
+{% block css %}
+<link href="{{ SITEURL }}/theme/fonts/Cardo/Cardo.css" rel="stylesheet">
+<style>
+.cv .entry-content { text-align: left; }
+.cv h1.entry-title,
+.cv h1,
+.cv h2,
+.cv h3,
+.cv h4,
+.cv h5,
+.cv h6 { font-family: Cardo,Garamond,"Times New Roman",serif; }
+.cv h2 { border-bottom: 1px solid #ccc; }
+</style>
+{% endblock %}
+
+{% block content %}
+    <section id="content" class="body cv">
+        <h1 class="entry-title">{{ page.title }}</h1>
+        {% import 'includes/translations.html' as translations with context %}
+        {{ translations.translations_for(page) }}
+        {% if PDF_PROCESSOR %}
+            <a href="{{ SITEURL }}/pdf/{{ page.slug }}.pdf">
+                get the pdf
+            </a>
+        {% endif %}
+        <div class="entry-content">
+            {{ page.content }}
+            {% if page.comments == 'enabled' %}
+                {% include 'includes/comments.html' %}
+            {% endif %}
+        </div>
+    </section>
+{% endblock %}
