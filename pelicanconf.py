@@ -34,7 +34,8 @@ LINKS = (('Michigan Tech Research Institute', 'http://www.mtri.org/'),
 
 PORTFOLIO = (('Carbon Flux Visualization', 'http://spatial.mtri.org/flux/'),
         ('Bering Glacier Monitoring', 'http://www.beringglacier.org/gass/'),
-        ('Great Lakes Remote Sensing', 'http://greatlakesremotesensing.org/'),)
+        ('Great Lakes Remote Sensing', 'http://greatlakesremotesensing.org/'),
+        ('Great Lakes Submerged Aquatic Vegetation Map', 'http://geodjango.mtri.org/static/sav/'),)
 
 # Social widget
 SOCIAL = (('GitHub', 'http://github.com/arthur-e/'),

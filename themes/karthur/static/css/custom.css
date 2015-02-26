@@ -8,7 +8,7 @@ article,
 
 body {
     background-color: #eee;
-    font-family: "HelveticaNeue-CondensedBold","Helvetica Neue CE 600 Condensed","Helvetica Neue LT Condensed","Helvetica Neue 600 Condensed","HelveticaNeue-BoldCondensed","Helvetica Neue BoldCondensed","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Helvetica Neue CE 600 Condensed","Helvetica Neue LT Condensed","Helvetica Neue 600 Condensed","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
 code {
@@ -33,6 +33,13 @@ ul {
 }
 
 .attribution { color: #999; }
+
+.categories-timestamp {
+    color: #999;
+    display: inline-block;
+    width: 15%;
+    max-width: 150px;
+}
 
 .entry-content a { color: #069; }
 .entry-content h1,h2,h3,h4,h5,h6 { clear: both; }
