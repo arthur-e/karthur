@@ -8,12 +8,16 @@ SITEURL = ''
 #SITEURL = 'http://karthur.org'
 THEME = 'themes/karthur'
 
+PLUGIN_PATHS = ['/usr/local/pelican/pelican-plugins']
+PLUGINS = ['thumbnailer']
+
 DISPLAY_PAGES_ON_MENU = True
+MY_UNICODE_EMAIL_ADDR = '&#101;&#110;&#100;&#115;&#108;&#101;&#121;&#64;&#117;&#109;&#105;&#99;&#104;&#46;&#101;&#100;&#117;'
 
 ARTICLE_PATHS = ['blog']
 ARTICLE_SAVE_AS = '{date:%Y}/{slug}.html'
 ARTICLE_URL = '{date:%Y}/{slug}.html'
-STATIC_PATHS = ['images']
+STATIC_PATHS = ['images', 'static']
 PAGE_PATHS = ['pages']
 
 PATH = 'content'
@@ -46,6 +50,10 @@ DEFAULT_PAGINATION = 10
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
+
+# Image thumbnails plug-in
+IMAGE_PATH = 'images' # /images in the output folder; /static/images is NOT for thumbnailers
+THUMBNAIL_DIR = 'images/thumbs'
 
 # Theme info
 BANNER = 'theme/images/kml_globe.jpg'
