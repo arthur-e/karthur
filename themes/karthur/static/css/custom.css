@@ -37,7 +37,7 @@ ul {
 .categories-timestamp {
     color: #999;
     display: inline-block;
-    width: 15%;
+    width: 20%;
     max-width: 150px;
 }
 
@@ -137,5 +137,5 @@ ul {
 #main { margin-top: 20px; }
 #links li.list-group-item,
 #portfolio li.list-group-item { padding: 5px 0; }
-#social li.list-group-item { padding: 5px 15px; }
+#social li.list-group-item { padding: 5px 0; }
 #sidebar { margin-top: 20px; }

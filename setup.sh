@@ -1,3 +1,5 @@
+virtualenv -p /usr/bin/python3.4 /usr/local/pythonenv/pelican-env
+
 # Installing pelican-plugins repo
 cd /usr/local/
 sudo mkdir pelican && sudo chown arthur pelican && cd pelican
@@ -13,4 +15,5 @@ make -j 4
 sudo make install
 sudo ldconfig
 
+source /usr/local/pythonenv/pelican-env/bin/activate
 pip install -I Pillow

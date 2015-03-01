@@ -3,13 +3,12 @@
 from __future__ import unicode_literals
 
 AUTHOR = 'K. Arthur Endsley'
-SITENAME = 'K. Arthur Endsley'
+SITENAME = "K. Arthur Endsley"
 SITEURL = ''
-#SITEURL = 'http://karthur.org'
 THEME = 'themes/karthur'
 
 PLUGIN_PATHS = ['/usr/local/pelican/pelican-plugins']
-PLUGINS = ['thumbnailer']
+PLUGINS = ['sitemap', 'thumbnailer']
 
 DISPLAY_PAGES_ON_MENU = True
 MY_UNICODE_EMAIL_ADDR = '&#101;&#110;&#100;&#115;&#108;&#101;&#121;&#64;&#117;&#109;&#105;&#99;&#104;&#46;&#101;&#100;&#117;'
@@ -50,6 +49,19 @@ DEFAULT_PAGINATION = 10
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
+
+###########
+# Plug-ins
+
+# Sitemap plug-in
+SITEMAP = {
+    'format': 'xml',
+    'changefreqs': {
+        'articles': 'monthly',
+        'pages': 'monthly',
+        'indexes': 'monthly'
+    }
+}
 
 # Image thumbnails plug-in
 IMAGE_PATH = 'images' # /images in the output folder; /static/images is NOT for thumbnailers
