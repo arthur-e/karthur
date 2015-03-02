@@ -8,7 +8,7 @@ SITEURL = ''
 THEME = 'themes/karthur'
 
 PLUGIN_PATHS = ['/usr/local/pelican/pelican-plugins']
-PLUGINS = ['sitemap', 'thumbnailer']
+PLUGINS = ['related_posts', 'sitemap', 'thumbnailer']
 
 DISPLAY_PAGES_ON_MENU = True
 MY_UNICODE_EMAIL_ADDR = '&#101;&#110;&#100;&#115;&#108;&#101;&#121;&#64;&#117;&#109;&#105;&#99;&#104;&#46;&#101;&#100;&#117;'
@@ -30,6 +30,8 @@ TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
+RELATED_POSTS_MAX = 5
+
 # Blogroll
 LINKS = (('Michigan Tech Research Institute', 'http://www.mtri.org/'),
         ('UMich School of Natural Resources and Environment', 'http://snre.umich.edu/'),
@@ -43,7 +45,8 @@ PORTFOLIO = (('Carbon Flux Visualization', 'http://spatial.mtri.org/flux/'),
 # Social widget
 SOCIAL = (('GitHub', 'http://github.com/arthur-e/'),
         ('LinkedIn', 'www.linkedin.com/in/endsley'),
-        ('BitBucket', 'http://bitbucket.org/kaendsle'),)
+        ('BitBucket', 'http://bitbucket.org/kaendsle'),
+        ('RSS', '/feeds/blog.atom.xml'),)
 
 DEFAULT_PAGINATION = 10
 
