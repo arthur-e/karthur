@@ -8,7 +8,7 @@ SITEURL = ''
 THEME = 'themes/karthur'
 
 PLUGIN_PATHS = ['/usr/local/pelican/pelican-plugins']
-PLUGINS = ['related_posts', 'sitemap', 'thumbnailer']
+PLUGINS = ['feed_summary', 'related_posts', 'sitemap', 'thumbnailer']
 
 DISPLAY_PAGES_ON_MENU = True
 MY_EMAIL_ADDR = 'endsley@umich.edu'
@@ -25,6 +25,7 @@ TIMEZONE = 'Europe/Paris'
 DEFAULT_LANG = 'en'
 
 # Feed generation is usually not desired when developing
+FEED_USE_SUMMARY = True
 FEED_ALL_ATOM = None
 CATEGORY_FEED_ATOM = None
 TRANSLATION_FEED_ATOM = None
