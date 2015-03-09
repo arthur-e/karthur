@@ -79,7 +79,7 @@ BANNER_SUBTITLE = '''
 I write about systematic observation, modeling, and analysis of the Earth's surface changes&mdash;<a href="http://spatial.mtri.org/flux/">I study the visualization of spatially and temporally varying phenomena <i class="fa fa-external-link-square"></i></a>
 '''
 BOOTSTRAP_THEME = 'sandstone'
-CC_LICENSE = 'CC-BY-NC-SA'
+CC_LICENSE = 'CC-BY-SA'
 CUSTOM_CSS = 'theme/css/custom.css'
 DISPLAY_ARTICLE_INFO_ON_INDEX = True
 DISPLAY_CATEGORY_IN_BREADCRUMBS = True
