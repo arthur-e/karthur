@@ -2,18 +2,26 @@
 
 article,
 .entry-content {
-    font-size: 16px;
-    text-align: justify;
+  font-size: 16px;
+  text-align: justify;
 }
 
 body {
-    background-color: #eee;
-    font-family: "Helvetica Neue CE 600 Condensed","Helvetica Neue LT Condensed","Helvetica Neue 600 Condensed","Helvetica Neue",Helvetica,Arial,sans-serif;
+  background-color: #eee;
+  font-family: "Helvetica Neue CE 600 Condensed","Helvetica Neue LT Condensed","Helvetica Neue 600 Condensed","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+blockquote {
+  font-style: italic;
+  font-size: inherit;
+  font-style: italic;
+  border-color: #aaa;
+  text-align: left;
 }
 
 code {
-    color: #069;
-    background-color: #cef;
+  color: #069;
+  background-color: #cef;
 }
 
 footer { margin-bottom: 20px; }
@@ -22,30 +30,30 @@ h1,h2,h3,h4,h5,h6,
 .navbar,
 .panel,
 .post-info {
-    text-align: left;
-    font-family: CabinSemiBold,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  text-align: left;
+  font-family: CabinSemiBold,"Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
 hr { border-top: 1px solid #ccc; }
 ul {
-    list-style-type: square;
-    overflow: auto;
+  list-style-type: square;
+  overflow: auto;
 }
 
 .attribution { color: #999; }
 
 .categories-timestamp {
-    color: #999;
-    display: inline-block;
-    width: 20%;
-    max-width: 150px;
+  color: #999;
+  display: inline-block;
+  width: 20%;
+  max-width: 150px;
 }
 
 .entry-content a { color: #069; }
 .entry-content h1,h2,h3,h4,h5,h6 { clear: both; }
 
 .list-group:last-child {
-    margin-bottom: 0;
+  margin-bottom: 0;
 } /* Removes extra margin at bottom of sidebar */
 
 .navbar { margin-bottom: 50px; } /* Top navigation bar */
@@ -55,83 +63,83 @@ ul {
 .navbar-default .navbar-nav>.active>a:hover,
 .navbar-default .navbar-nav>.active>a:focus { background-color:#666; }
 .navbar .nav>li>a {
-    font-size: 14px;
-    color: #9df;
+  font-size: 14px;
+  color: #9df;
 }
 
 .page-content img {
-    float: left;
-    margin: 0 20px 20px 0;
-    -moz-border-radius: 3px;
-    -webkit-border-radius: 3px;
-    border-radius: 3px;
+  float: left;
+  margin: 0 20px 20px 0;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
 }
 
 .page-header { /* Article tiles on their own page */
-    margin: 20px 0 20px;
-    border: none;
-    padding-bottom: 0;
+  margin: 20px 0 20px;
+  border: none;
+  padding-bottom: 0;
 }
 .page-header .fa-lg {
-    color: #aaa;
-    font-size: 36px;
-    vertical-align: -5%;
+  color: #aaa;
+  font-size: 36px;
+  vertical-align: -5%;
 }
 
 .panel { /* e.g. Holds post information, date published */
-    background: transparent;
-    box-shadow: none;
-    border-bottom: 1px solid #ccc;
-    border-radius: 0;
-    padding-bottom: 20px;
+  background: transparent;
+  box-shadow: none;
+  border-bottom: 1px solid #ccc;
+  border-radius: 0;
+  padding-bottom: 20px;
 }
 .panel-body { padding: 0 0 0 5px; }
 
 .post-info { /* The date, tags below post titles */
-    line-height: 28px;
-    margin-bottom: 0;
+  line-height: 28px;
+  margin-bottom: 0;
 }
 .post-info .published .fa-calendar { /* Makes total width of icon 20px */
-    padding-right: 5px;
+  padding-right: 5px;
 }
 .post-info .fa-tags { padding-right: 3px; }
 
 .read-on { /* ... */
-    font-size: 20px;
-    line-height: 16px;
-    vertical-align: bottom;
+  font-size: 20px;
+  line-height: 16px;
+  vertical-align: bottom;
 }
 
 .tagcloud li {
-    color: #08c;
-    font-size: 11px;
+  color: #08c;
+  font-size: 11px;
 }
 
 .well {
-    background-color: #fff;
-    border: 1px solid #ccc;
+  background-color: #fff;
+  border: 1px solid #ccc;
 }
 .well-sm { padding: 0; }
 
 #banner {
-    margin-top: 5px;
-    background-color: #000;
-    background-position: right center;
-    background-size: auto 500px;
+  margin-top: 5px;
+  background-color: #000;
+  background-position: right center;
+  background-size: auto 500px;
 }
 #banner .intro {
-    color: #0af;
-    opacity: 1.0;
+  color: #0af;
+  opacity: 1.0;
 }
 #banner h1,
 #banner p {
-    font-family: Cabin,inherit;
-    font-style: italic;
+  font-family: Cabin,inherit;
+  font-style: italic;
 }
 /*
-    -moz-box-shadow: inset 0px 0px 5px 1px #999;
-    -webkit-box-shadow: inset 0px 0px 5px 1px #999;
-    box-shadow: inset 0px 0px 5px 1px #999;
+  -moz-box-shadow: inset 0px 0px 5px 1px #999;
+  -webkit-box-shadow: inset 0px 0px 5px 1px #999;
+  box-shadow: inset 0px 0px 5px 1px #999;
 */
 
 #main { margin-top: 20px; }
