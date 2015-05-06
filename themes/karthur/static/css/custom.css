@@ -34,11 +34,17 @@ h1,h2,h3,h4,h5,h6,
   font-family: CabinSemiBold,"Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
+h1,h2,h3,h4,h5,h6 {
+  margin-top: 24px;
+}
+
 hr { border-top: 1px solid #ccc; }
 ul {
   list-style-type: square;
   overflow: auto;
 }
+
+p { margin: 18px 0; }
 
 .attribution { color: #999; }
 
