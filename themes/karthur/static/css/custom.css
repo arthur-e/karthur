@@ -114,12 +114,6 @@ ul {
 }
 .post-info .fa-tags { padding-right: 3px; }
 
-.read-on { /* ... */
-  font-size: 20px;
-  line-height: 16px;
-  vertical-align: bottom;
-}
-
 .tagcloud li {
   color: #08c;
   font-size: 11px;
