@@ -19,6 +19,8 @@ blockquote {
   text-align: left;
 }
 
+blockquote p { margin: 0 0 10px; }
+
 code {
   color: #069;
   background-color: #cef;
@@ -34,17 +36,13 @@ h1,h2,h3,h4,h5,h6,
   font-family: CabinSemiBold,"Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
-h1,h2,h3,h4,h5,h6 {
-  margin-top: 24px;
-}
-
 hr { border-top: 1px solid #ccc; }
 ul {
   list-style-type: square;
   overflow: auto;
 }
 
-p { margin: 18px 0; }
+#related-posts { margin-top: 24px; }
 
 .attribution { color: #999; }
 
@@ -57,6 +55,12 @@ p { margin: 18px 0; }
 
 .entry-content a { color: #069; }
 .entry-content h1,h2,h3,h4,h5,h6 { clear: both; }
+.entry-content p { margin: 18px 0; }
+.entry-content ol,
+.entry-content ul { text-align: left; }
+.entry-content h1,
+.entry-content h2,
+.entry-content h3 { margin-top: 24px; }
 
 .list-group:last-child {
   margin-bottom: 0;
