@@ -137,7 +137,7 @@ ul {
 }
 #banner h1,
 #banner p {
-  font-family: Cabin,inherit;
+  font-family: Cabin,Helvetica,Arial,sans-serif;
   font-style: italic;
 }
 /*
