@@ -37,6 +37,14 @@ h1,h2,h3,h4,h5,h6,
 }
 
 hr { border-top: 1px solid #ccc; }
+
+/* Remove underline from FontAwesome icons */
+i[class^="icon-"]:before {
+	display: inline-block;
+	text-decoration: none;
+  border: none;
+}
+
 ul {
   list-style-type: square;
   overflow: auto;
