@@ -8,7 +8,7 @@ SITEURL = ''
 THEME = 'themes/karthur'
 
 PLUGIN_PATHS = ['/usr/local/pelican/pelican-plugins']
-PLUGINS = ['feed_summary', 'related_posts', 'sitemap', 'thumbnailer']
+PLUGINS = ['feed_summary', 'related_posts', 'sitemap', 'thumbnailer', 'render_math']
 
 DISPLAY_PAGES_ON_MENU = True
 MY_EMAIL_ADDR = 'endsley@umich.edu'

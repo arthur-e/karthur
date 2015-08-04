@@ -19,7 +19,8 @@ blockquote {
   text-align: left;
 }
 
-blockquote p { margin: 0 0 10px; }
+blockquote .entry-content p,
+blockquote p { margin: 0 !important; }
 
 code {
   color: #069;
@@ -50,7 +51,10 @@ ul {
   overflow: auto;
 }
 
-#related-posts { margin-top: 24px; }
+#related-posts {
+  margin-top: 24px;
+  margin-bottom: 0;
+}
 
 .attribution { color: #999; }
 
