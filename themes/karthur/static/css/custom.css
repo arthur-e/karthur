@@ -1,5 +1,8 @@
 /* All theme colors can be found at: http://www.0to255.com/006699 */
 
+.highlight pre { background: #fff !important; }
+pre { font-size: 14px !important; }
+
 article,
 .entry-content {
   font-size: 16px;

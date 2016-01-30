@@ -8,7 +8,7 @@ SITEURL = ''
 THEME = 'themes/karthur'
 
 PLUGIN_PATHS = ['/usr/local/pelican/pelican-plugins']
-PLUGINS = ['feed_summary', 'related_posts', 'sitemap', 'thumbnailer', 'render_math']
+PLUGINS = ['feed_summary', 'related_posts', 'sitemap', 'thumbnailer', 'render_math', 'tag_cloud']
 
 DISPLAY_PAGES_ON_MENU = True
 MY_EMAIL_ADDR = 'endsley@umich.edu'
@@ -37,12 +37,12 @@ RELATED_POSTS_MAX = 5
 # Blogroll
 LINKS = (('Michigan Tech Research Institute', 'http://www.mtri.org/'),
         ('UMich School of Natural Resources and Environment', 'http://snre.umich.edu/'),
-        ('North Slope Science Initiative', 'http://northslope.org/'),)
+        ('Carbon Flux Visualization', 'http://spatial.mtri.org/flux/'),
+        ('Bering Glacier Monitoring', 'http://www.beringglacier.org/gass/'),)
 
-PORTFOLIO = (('Carbon Flux Visualization', 'http://spatial.mtri.org/flux/'),
-        ('Bering Glacier Monitoring', 'http://www.beringglacier.org/gass/'),
-        ('Great Lakes Remote Sensing', 'http://greatlakesremotesensing.org/'),
-        ('Great Lakes Submerged Aquatic Vegetation Map', 'http://geodjango.mtri.org/static/sav/'),)
+PUBLICATIONS = (('2016-01', 'Distributed visualization of gridded geophysical data...', "http://www.geosci-model-dev.net/9/383/2016/", 'Geosci. Model. Dev.'),
+        ('2015-06', 'Rapid response tools and datasets for post-fire modeling...', "https://www.researchgate.net/publication/277363734_Rapid_response_tools_and_datasets_for_post-fire_modeling_Linking_Earth_Observations_and_process-based_hydrological_models_to_support_post-fire_remediation", ''),
+        ('2015-05', 'Relating big data to local natural hazards...', "https://www.researchgate.net/publication/277248078_Relating_big_data_to_local_natural_hazards_Lessons_learned_from_data_mining_the_Twitter_API_for_volunteered_geographic_information_on_earthquakes_wildires_and_prescribed_fires_in_the_contiguous_United", ''),)
 
 # Social widget
 SOCIAL = (('GitHub', 'http://github.com/arthur-e/'),
@@ -84,4 +84,4 @@ CUSTOM_CSS = 'theme/css/custom.css'
 DISPLAY_ARTICLE_INFO_ON_INDEX = True
 DISPLAY_CATEGORY_IN_BREADCRUMBS = True
 DISPLAY_TAGS_INLINE = True
-PYGMENTS_STYLE = 'solarizeddark'
+PYGMENTS_STYLE = 'friendly'
