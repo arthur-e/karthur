@@ -1,6 +1,5 @@
 /* All theme colors can be found at: http://www.0to255.com/006699 */
 
-.highlight pre { background: #fff !important; }
 pre { font-size: 14px !important; }
 
 article,
@@ -26,8 +25,8 @@ blockquote .entry-content p,
 blockquote p { margin: 0 !important; }
 
 code {
-  color: #069;
-  background-color: #cef;
+  color: #3b4a4e;
+  background-color: #eef9ff;
 }
 
 footer { margin-bottom: 20px; }
@@ -130,7 +129,7 @@ ul {
 .post-info .fa-tags { padding-right: 3px; }
 
 .tagcloud li {
-  color: #08c;
+  color: #069;
   font-size: 11px;
 }
 
