@@ -12,7 +12,7 @@ body {
 }
 
 /* for list-group-items nested within a list-group-item, reset the bottom
-   padding of the last item, b/c the containing item has paddimg already 
+   padding of the last item, b/c the containing item has paddimg already
  */
 .list-group-item .list-group-item:last-child {
     padding-bottom: 0px;
@@ -80,12 +80,11 @@ a, a:hover {
 
 .entry-content a {
     text-decoration: none;
-    border-bottom: 1px dotted;
+    border-bottom: 2px solid #cef;
 }
 
 .entry-content a:hover {
     text-decoration: none;
-    border-bottom: 1px solid;
 }
 
 .entry-content img {
@@ -175,7 +174,7 @@ figure.floatcenter, .align-center {
     background-repeat: no-repeat;
     background-position: top center;
     background-attachment: scroll;
-    background-size: cover; 
+    background-size: cover;
     background-color: #C4C4C4;
     margin: 0 0 20px;
     padding: 70px 0; /*controls padding around inner text*/
