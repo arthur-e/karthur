@@ -40,9 +40,10 @@ LINKS = (('Michigan Tech Research Institute', 'http://www.mtri.org/'),
         ('Carbon Flux Visualization', 'http://spatial.mtri.org/flux/'),
         ('Bering Glacier Monitoring', 'http://www.beringglacier.org/gass/'),)
 
-PUBLICATIONS = (('2016-01', 'Distributed visualization of gridded geophysical data...', "http://www.geosci-model-dev.net/9/383/2016/", 'Geosci. Model. Dev.'),
-        ('2015-06', 'Rapid response tools and datasets for post-fire modeling...', "https://www.researchgate.net/publication/277363734_Rapid_response_tools_and_datasets_for_post-fire_modeling_Linking_Earth_Observations_and_process-based_hydrological_models_to_support_post-fire_remediation", ''),
-        ('2015-05', 'Relating big data to local natural hazards...', "https://www.researchgate.net/publication/277248078_Relating_big_data_to_local_natural_hazards_Lessons_learned_from_data_mining_the_Twitter_API_for_volunteered_geographic_information_on_earthquakes_wildires_and_prescribed_fires_in_the_contiguous_United", ''),)
+PUBLICATIONS = (
+        ('2016-03', 'Estimating local biodiversity change: A critique...', 'http://onlinelibrary.wiley.com/doi/10.1890/15-1759.1/full', 'Ecology'),
+        ('2016-01', 'Distributed visualization of gridded geophysical data...', "http://www.geosci-model-dev.net/9/383/2016/", 'Geosci. Model. Dev.'),
+        ('2015-06', 'Rapid response tools and datasets for post-fire modeling...', "https://www.researchgate.net/publication/277363734_Rapid_response_tools_and_datasets_for_post-fire_modeling_Linking_Earth_Observations_and_process-based_hydrological_models_to_support_post-fire_remediation", ''),)
 
 # Social widget
 SOCIAL = (('GitHub', 'http://github.com/arthur-e/'),
