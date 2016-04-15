@@ -110,6 +110,31 @@ ul {
   vertical-align: -5%;
 }
 
+/* Pagination buttons at bottom of index.html */
+.pagination>.disabled>span, .pagination>.disabled>span:hover, .pagination>.disabled>span:focus, .pagination>.disabled>a, .pagination>.disabled>a:hover, .pagination>.disabled>a:focus {
+  font-size: 14px;
+  color: #999;
+  background-color: #eee;
+  border-color: #666;
+}
+.pagination>.active>a, .pagination>.active>span, .pagination>.active>a:hover, .pagination>.active>span:hover, .pagination>.active>a:focus, .pagination>.active>span:focus {
+  font-size: 14px;
+  color: #fff;
+  background-color: #0af;
+  border-color: #666;
+}
+.pagination>li>a, .pagination>li>span {
+  font-size: 14px;
+  color: #333;
+  background-color: #fff;
+  border-color: #666;
+}
+.pagination>li>a:hover, .pagination>li>span:hover, .pagination>li>a:focus, .pagination>li>span:focus {
+  color: #fff;
+  background-color: #666;
+  border-color: #666;
+}
+
 .panel { /* e.g. Holds post information, date published */
   background: transparent;
   box-shadow: none;
