@@ -22,12 +22,10 @@
         <h1 class="entry-title">{{ page.title }}</h1>
         {% import 'includes/translations.html' as translations with context %}
         {{ translations.translations_for(page) }}
-        {% if PDF_PROCESSOR %}
-            <a href="{{ SITEURL }}/pdf/{{ page.slug }}.pdf">
-                get the pdf
-            </a>
-        {% endif %}
         <div class="entry-content">
+            <div style="margin:1em">
+                <i class="fa fa-file-pdf-o"></i> <a href="/static/docs/Endsley_CV.pdf">Download as PDF</a>
+            </div>
             {{ page.content }}
             {% if page.comments == 'enabled' %}
                 {% include 'includes/comments.html' %}
