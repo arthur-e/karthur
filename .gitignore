@@ -1,0 +1,6 @@
+syntax: glob
+__pycache__/*
+cache/*
+content/*
+output/*
+themes/karthur/static/fonts/*
