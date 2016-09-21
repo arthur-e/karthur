@@ -75,6 +75,7 @@ ul {
 .entry-content h1,
 .entry-content h2,
 .entry-content h3 { margin-top: 24px; }
+.entry-content h4 { font-size: 20px; }
 
 .list-group:last-child {
   margin-bottom: 0;
