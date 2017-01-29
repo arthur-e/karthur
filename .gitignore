@@ -1,5 +1,6 @@
 syntax: glob
 __pycache__/*
+*.pyc
 cache/*
 content/*
 output/*

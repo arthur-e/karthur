@@ -7,6 +7,9 @@ sudo chown arthur pelican
 cd pelican
 git clone https://github.com/getpelican/pelican-plugins
 
+# Install cmake
+sudo apt install cmake
+
 # Installing support for the thumbnailer plug-in
 cd /usr/local/
 sudo mkdir openjpeg
