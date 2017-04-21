@@ -37,8 +37,9 @@ RELATED_POSTS_MAX = 5
 # Blogroll
 LINKS = (('Michigan Tech Research Institute', 'http://www.mtri.org/'),
         ('UMich School of Natural Resources and Environment', 'http://snre.umich.edu/'),
+        ('Great Lakes Remote Sensing', 'http://www.greatlakesremotesensing.org/'),
         ('Carbon Flux Visualization', 'http://spatial.mtri.org/flux/'),
-        ('Bering Glacier Monitoring', 'http://www.beringglacier.org/gass/'),)
+        ('Bering Glacier Monitoring', 'http://www.beringglacier.org/'),)
 
 PUBLICATIONS = (
         ('2016-10', 'Rapid-response tools and datasets for post-fire remediation...', 'http://www.publish.csiro.au/wf/WF15162', 'International Journal of Wildland Fire'),
