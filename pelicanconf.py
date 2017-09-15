@@ -32,7 +32,7 @@ TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
-RELATED_POSTS_MAX = 5
+RELATED_POSTS_MAX = 3
 
 # Blogroll
 LINKS = (('Michigan Tech Research Institute', 'http://www.mtri.org/'),

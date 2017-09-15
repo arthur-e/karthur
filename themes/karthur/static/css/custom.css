@@ -50,7 +50,7 @@ i[class^="icon-"]:before {
 
 ul {
   list-style-type: square;
-  overflow: auto;
+  overflow: visible;
 }
 
 #related-posts {
