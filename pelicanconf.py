@@ -20,6 +20,12 @@ ARTICLE_URL = '{date:%Y}/{slug}.html'
 STATIC_PATHS = ['images', 'static']
 PAGE_PATHS = ['pages']
 
+# After upgrading the additional menu bar items disappeared...
+MENUITEMS = [
+    ('About Me', '/pages/about-me.html'),
+    ('CV', '/pages/cv.html')
+]
+
 PATH = 'content'
 TIMEZONE = 'Europe/Paris'
 DEFAULT_LANG = 'en'
