@@ -10,6 +10,9 @@ THEME = 'themes/karthur'
 PLUGIN_PATHS = ['/usr/local/pelican/pelican-plugins']
 PLUGINS = ['feed_summary', 'related_posts', 'sitemap', 'thumbnailer', 'render_math', 'tag_cloud']
 
+# Enable smart quotes
+TYPOGRIFY = True
+
 DISPLAY_PAGES_ON_MENU = True
 MY_EMAIL_ADDR = 'endsley@umich.edu'
 MY_UNICODE_EMAIL_ADDR = '&#101;&#110;&#100;&#115;&#108;&#101;&#121;&#64;&#117;&#109;&#105;&#99;&#104;&#46;&#101;&#100;&#117;'
