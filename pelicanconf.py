@@ -45,9 +45,9 @@ RELATED_POSTS_MAX = 3
 
 # Blogroll
 LINKS = (('Michigan Tech Research Institute', 'http://www.mtri.org/'),
-        ('UMich School of Natural Resources and Environment', 'http://snre.umich.edu/'),
+        ('UMich School for Environment and Sustainability', 'http://seas.umich.edu/'),
         ('Great Lakes Remote Sensing', 'http://www.greatlakesremotesensing.org/'),
-        ('Carbon Flux Visualization', 'http://spatial.mtri.org/flux/'),
+        ('Rapid Response Erosion Database', 'http://geodjango.mtri.org/geowepp/'),
         ('Bering Glacier Monitoring', 'http://www.beringglacier.org/'),)
 
 PUBLICATIONS = (
@@ -88,7 +88,7 @@ THUMBNAIL_DIR = 'images/thumbs'
 BANNER = 'theme/images/kml_globe.jpg'
 BANNER_TITLE = 'Computational Geoscience & Remote Sensing'
 BANNER_SUBTITLE = '''
-I write about systematic observation, modeling, and analysis of the Earth's surface changes&mdash;<a href="http://spatial.mtri.org/flux/">I study the visualization of spatially and temporally varying phenomena <i class="fa fa-external-link-square"></i></a>
+I write about systematic observation, modeling, and analysis of the Earth's surface changes&mdash;<a href="https://www.sciencedirect.com/science/article/pii/B9780124095489104361">I currently study the human factors driving urban land-cover changes <i class="fa fa-external-link-square"></i></a>
 '''
 BOOTSTRAP_THEME = 'sandstone'
 CC_LICENSE = 'CC-BY-SA'
