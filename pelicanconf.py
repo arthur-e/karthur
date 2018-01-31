@@ -11,7 +11,7 @@ PLUGIN_PATHS = ['/usr/local/pelican/pelican-plugins']
 PLUGINS = ['feed_summary', 'related_posts', 'sitemap', 'thumbnailer', 'render_math', 'tag_cloud']
 
 # Enable smart quotes
-TYPOGRIFY = True
+TYPOGRIFY = False
 
 DISPLAY_PAGES_ON_MENU = True
 MY_EMAIL_ADDR = 'endsley@umich.edu'
