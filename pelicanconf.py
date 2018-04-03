@@ -51,9 +51,9 @@ LINKS = (('Michigan Tech Research Institute', 'http://www.mtri.org/'),
         ('Bering Glacier Monitoring', 'http://www.beringglacier.org/'),)
 
 PUBLICATIONS = (
+        ('2018-04', '...Disparities in urban and metropolitan vegetation', 'https://doi.org/10.1007/s10021-018-0242-4', 'Ecosystems'),
         ('2016-10', 'Rapid-response tools and datasets for post-fire remediation...', 'http://www.publish.csiro.au/wf/WF15162', 'International Journal of Wildland Fire'),
-        ('2016-03', 'Estimating local biodiversity change: A critique...', 'http://onlinelibrary.wiley.com/doi/10.1890/15-1759.1/full', 'Ecology'),
-        ('2016-01', 'Distributed visualization of gridded geophysical data...', "http://www.geosci-model-dev.net/9/383/2016/", 'Geosci. Model. Dev.'),)
+        ('2016-03', 'Estimating local biodiversity change: A critique...', 'http://onlinelibrary.wiley.com/doi/10.1890/15-1759.1/full', 'Ecology'),)
 
 # Social widget
 SOCIAL = (('GitHub', 'http://github.com/arthur-e/'),
@@ -88,7 +88,7 @@ THUMBNAIL_DIR = 'images/thumbs'
 BANNER = 'theme/images/kml_globe.jpg'
 BANNER_TITLE = 'Computational Geoscience & Remote Sensing'
 BANNER_SUBTITLE = '''
-I write about systematic observation, modeling, and analysis of the Earth's surface changes&mdash;<a href="https://www.sciencedirect.com/science/article/pii/B9780124095489104361">I currently study the human factors driving urban land-cover changes <i class="fa fa-external-link-square"></i></a>
+I write about systematic observation, modeling, and analysis of the Earth's surface changes&mdash;<a href="https://doi.org/10.1007/s10021-018-0242-4">I currently study the human factors driving urban land-cover changes <i class="fa fa-external-link-square"></i></a>
 '''
 BOOTSTRAP_THEME = 'sandstone'
 CC_LICENSE = 'CC-BY-SA'
