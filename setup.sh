@@ -1,4 +1,4 @@
-virtualenv -p /usr/bin/python3.5 /usr/local/pythonenv/pelican-env
+virtualenv -p /usr/bin/python3 /usr/local/pythonenv/pelican-env
 
 # Installing pelican-plugins repo
 cd /usr/local/
