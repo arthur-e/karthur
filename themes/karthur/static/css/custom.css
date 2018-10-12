@@ -202,4 +202,9 @@ ul {
 #links li.list-group-item,
 #portfolio li.list-group-item { padding: 5px 0; }
 #social li.list-group-item { padding: 5px 0; }
-#sidebar { margin-top: 20px; }
+#sidebar {
+  word-break: normal;
+  margin-top: 20px;
+  -moz-hyphens: auto;
+  hyphens: auto;
+}

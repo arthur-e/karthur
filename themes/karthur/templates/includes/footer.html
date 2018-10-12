@@ -9,11 +9,10 @@
          {% endif %}
          <div class="col-xs-10">&copy; {{ copy_date }} {{ AUTHOR }}
             &middot; Powered by <i class="fa fa-linux"></i>
-            <a href="http://ubuntu.com/" target="_blank">Ubuntu GNU/Linux</a>, 
-            <a href="https://www.python.org/" target="_blank">Python</a>,
-            <a href="https://github.com/DandyDev/pelican-bootstrap3" target="_blank">pelican-bootstrap3</a>,
-            <a href="http://docs.getpelican.com/" target="_blank">Pelican</a>,
-            <a href="http://getbootstrap.com" target="_blank">Bootstrap</a>
+            <a href="http://ubuntu.com/" target="_blank">Ubuntu GNU/Linux</a>,
+            <a href="https://www.python.org/" target="_blank">Python</a> and
+            <a href="http://docs.getpelican.com/" target="_blank">Pelican</a>.
+            Cabin Font by <a href="https://www.fontsquirrel.com/fonts/list/foundry/pablo-impallari" target="_blank">Pablo Impallari</a>.
             {%- if CC_LICENSE or CC_LICENSE_DERIVATIVES or CC_LICENSE_COMMERCIAL %}
               {% from 'includes/cc-license.html' import cc_license_mark %}
               <p><span class="attribution">{{ cc_license_mark(cc_name=CC_LICENSE,derivatives=CC_LICENSE_DERIVATIVES,commercial=CC_LICENSE_COMMERCIAL,attr_markup=CC_ATTR_MARKUP,attr_props={'title':SITENAME,'name':article.author if article else AUTHOR,'url':SITEURL}) }}</span></p>
