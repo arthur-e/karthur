@@ -69,13 +69,25 @@ ul {
 
 .entry-content a { color: #069; }
 .entry-content h1,h2,h3,h4,h5,h6 { clear: both; }
-.entry-content p { margin: 18px 0; }
+.entry-content p { /* To allow for hanging indents in the Publications ONLY */
+  margin: 18px 0 0 40px !important;
+  text-indent: -40px;
+  text-align: justify;
+}
+.entry-content ul p {
+  margin: 18px 0px !important;
+  text-indent: 0px;
+  text-align: left;
+}
 .entry-content ol,
 .entry-content ul { text-align: left; }
 .entry-content h1,
 .entry-content h2,
 .entry-content h3 { margin-top: 24px; }
 .entry-content h4 { font-size: 20px; margin-top: 15px !important; }
+
+/* Essential to prevent these icons from shifting inside a hanging indent */
+.fa { text-indent: 0; }
 
 .list-group:last-child {
   margin-bottom: 0;
