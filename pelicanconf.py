@@ -85,7 +85,7 @@ IMAGE_PATH = 'images' # /images in the output folder; /static/images is NOT for 
 THUMBNAIL_DIR = 'images/thumbs'
 
 # Theme info
-BANNER = 'theme/images/kml_globe.jpg'
+BANNER = 'theme/images/LA_county.jpg'
 BANNER_TITLE = 'Computational Geoscience & Remote Sensing'
 BANNER_SUBTITLE = '''
 I write about systematic observation, modeling, and analysis of the Earth's surface changes&mdash;<a href="https://doi.org/10.1007/s10021-018-0242-4">I currently study the human factors driving urban land-cover changes <i class="fa fa-external-link-square"></i></a>
