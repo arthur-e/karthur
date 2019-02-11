@@ -50,10 +50,11 @@ LINKS = (('Michigan Tech Research Institute', 'http://www.mtri.org/'),
         ('Rapid Response Erosion Database', 'http://geodjango.mtri.org/geowepp/'),
         ('Bering Glacier Monitoring', 'http://www.beringglacier.org/'),)
 
+# Should be (date, title, URL, journal name)
 PUBLICATIONS = (
+        ('2019-01', '...Soil moisture monitoring...in a mountain watershed', 'https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2018WR023653', 'Water Resources Research'),
         ('2018-04', '...Disparities in urban and metropolitan vegetation', 'https://doi.org/10.1007/s10021-018-0242-4', 'Ecosystems'),
-        ('2016-10', 'Rapid-response tools and datasets for post-fire remediation...', 'http://www.publish.csiro.au/wf/WF15162', 'International Journal of Wildland Fire'),
-        ('2016-03', 'Estimating local biodiversity change: A critique...', 'http://onlinelibrary.wiley.com/doi/10.1890/15-1759.1/full', 'Ecology'),)
+        ('2016-10', 'Rapid-response tools and datasets for post-fire remediation...', 'http://www.publish.csiro.au/wf/WF15162', 'International Journal of Wildland Fire'),)
 
 # Social widget
 SOCIAL = (('GitHub', 'http://github.com/arthur-e/'),
