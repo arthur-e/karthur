@@ -60,7 +60,6 @@ PUBLICATIONS = (
 SOCIAL = (('GitHub', 'http://github.com/arthur-e/'),
         ('LinkedIn', 'http://www.linkedin.com/in/endsley'),
         ('BitBucket', 'http://bitbucket.org/kaendsle'),
-        ('Twitter', 'https://twitter.com/ArthurEnd'),
         ('RSS', '/feeds/blog.atom.xml'),)
 
 DEFAULT_PAGINATION = 10
