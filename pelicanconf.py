@@ -4,6 +4,7 @@ from __future__ import unicode_literals
 
 AUTHOR = 'K. Arthur Endsley'
 SITENAME = "K. Arthur Endsley"
+SITE_TITLE = "K. Arthur Endsley: On Computational Geoscience and Remote Sensing"
 SITEURL = ''
 THEME = 'themes/karthur'
 
