@@ -1,1 +1,1 @@
-source /usr/local/pythonenv/pelican-env/bin/activate
+source /usr/local/pythonenv/pelican/bin/activate

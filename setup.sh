@@ -1,4 +1,4 @@
-virtualenv -p /usr/bin/python3 /usr/local/pythonenv/pelican-env
+virtualenv -p /usr/bin/python3 /usr/local/pythonenv/pelican
 
 # Installing pelican-plugins repo
 cd /usr/local/
@@ -6,6 +6,10 @@ sudo mkdir pelican
 sudo chown arthur pelican
 cd pelican
 git clone https://github.com/getpelican/pelican-plugins
+
+# Temporary fix for render_math
+cd pelican-plugins
+git checkout 560b6ad61ade9e73d7482abdf4d8287032817631
 
 # Install cmake
 sudo apt install cmake

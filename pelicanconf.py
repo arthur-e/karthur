@@ -8,8 +8,11 @@ SITE_TITLE = "K. Arthur Endsley: On Computational Geoscience and Remote Sensing"
 SITEURL = ''
 THEME = 'themes/karthur'
 
+# Until pelican-plugins/render_math is fixed (or new render-math is fixed);
+#   use an older version of pelican-plugins:
+#   git checkout 560b6ad61ade9e73d7482abdf4d8287032817631
 PLUGIN_PATHS = ['/usr/local/pelican/pelican-plugins']
-PLUGINS = ['feed_summary', 'related_posts', 'sitemap', 'thumbnailer', 'render_math', 'tag_cloud']
+PLUGINS = ['feed_summary', 'related_posts', 'sitemap', 'thumbnailer', 'tag_cloud', 'render_math']
 
 # Enable smart quotes
 TYPOGRIFY = False
@@ -25,10 +28,10 @@ STATIC_PATHS = ['images', 'static']
 PAGE_PATHS = ['pages']
 
 # After upgrading the additional menu bar items disappeared...
-# MENUITEMS = [
-#     ('About Me', '/pages/about-me.html'),
-#     ('CV', '/pages/cv.html')
-# ]
+MENUITEMS = [
+    ('About Me', '/pages/about-me.html'),
+    ('CV', '/pages/cv.html')
+]
 
 PATH = 'content'
 TIMEZONE = 'Europe/Paris'
