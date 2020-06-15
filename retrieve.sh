@@ -1,1 +1,1 @@
-rsync -avc karthur.org:/home/arthur/Blog/* content/
+rsync -avc $1@karthur.org:/home/arthur/Blog/* content/

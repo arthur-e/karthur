@@ -1,15 +1,18 @@
-virtualenv -p /usr/bin/python3 /usr/local/pythonenv/pelican
+USERNAME=<username_here>
+VENV_DIR=/usr/local/pythonenv/pelican
+
+virtualenv -p /usr/bin/python3 $VENV_DIR
 
 # Installing pelican-plugins repo
 cd /usr/local/
 sudo mkdir pelican
-sudo chown arthur pelican
+sudo chown $USERNAME pelican
 cd pelican
 git clone https://github.com/getpelican/pelican-plugins
 
 # Temporary fix for render_math
-cd pelican-plugins
-git checkout 560b6ad61ade9e73d7482abdf4d8287032817631
+# cd pelican-plugins
+# git checkout 560b6ad61ade9e73d7482abdf4d8287032817631
 
 # Install cmake
 sudo apt install cmake
@@ -27,8 +30,14 @@ sudo apt install cmake
 # sudo make install
 # sudo ldconfig
 
-source /usr/local/pythonenv/pelican-env/bin/activate
+source $VENV_DIR/bin/activate
 pip install -r /usr/local/dev/karthur/REQUIREMENTS
 
 # Get fonts
-rsync -avc karthur.org:/var/www/karthur/theme/fonts /usr/local/dev/karthur/themes/karthur/static/
+rsync -avc $USERNAME@karthur.org:/var/www/karthur/theme/fonts /usr/local/dev/karthur/themes/karthur/static/
+
+# Update symbolic links
+rm /usr/local/dev/karthur/content/pages/cv.md
+ln -s ~/Sync/Documents/CV.md /usr/local/dev/karthur/content/pages/cv.md
+rm /usr/local/dev/karthur/content/static/docs/Endsley_CV.pdf
+ln -s ~/Sync/Documents/Endsley_CV.pdf /usr/local/dev/karthur/content/static/docs/Endsley_CV.pdf
