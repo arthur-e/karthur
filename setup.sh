@@ -1,4 +1,4 @@
-USERNAME=<username_here>
+USERNAME=arthur
 VENV_DIR=/usr/local/pythonenv/pelican
 
 virtualenv -p /usr/bin/python3 $VENV_DIR
@@ -15,7 +15,7 @@ git clone https://github.com/getpelican/pelican-plugins
 # git checkout 560b6ad61ade9e73d7482abdf4d8287032817631
 
 # Install cmake
-sudo apt install cmake
+# sudo apt install cmake
 
 # Installing support for the thumbnailer plug-in
 # NOTE: This will break other applications that depend on OpenJPEG
@@ -35,6 +35,9 @@ pip install -r /usr/local/dev/karthur/REQUIREMENTS
 
 # Get fonts
 rsync -avc $USERNAME@karthur.org:/var/www/karthur/theme/fonts /usr/local/dev/karthur/themes/karthur/static/
+
+cd $VENV_DIR
+source $VENV_DIR/retrieve.sh $USERNAME
 
 # Update symbolic links
 rm /usr/local/dev/karthur/content/pages/cv.md

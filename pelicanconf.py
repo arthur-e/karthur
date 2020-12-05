@@ -56,15 +56,14 @@ LINKS = (('Michigan Tech Research Institute', 'http://www.mtri.org/'),
 
 # Should be (date, title, URL, journal name)
 PUBLICATIONS = (
-        ('2019-01', '...Soil moisture monitoring...in a mountain watershed', 'https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2018WR023653', 'Water Resources Research'),
-        ('2018-04', '...Disparities in urban and metropolitan vegetation', 'https://doi.org/10.1007/s10021-018-0242-4', 'Ecosystems'),
-        ('2016-10', 'Rapid-response tools and datasets for post-fire remediation...', 'http://www.publish.csiro.au/wf/WF15162', 'International Journal of Wildland Fire'),)
+    ('2020-12', 'Monitoring crop status...using the SMAP Level 4 Carbon product', 'https://www.frontiersin.org/articles/10.3389/fdata.2020.597720/abstract', 'Frontiers in Big Data'),
+    ('2019-01', '...Soil moisture monitoring...in a mountain watershed', 'https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2018WR023653', 'Water Resources Research'),
+    ('2018-04', '...Disparities in urban and metropolitan vegetation', 'https://doi.org/10.1007/s10021-018-0242-4', 'Ecosystems'),)
 
 # Social widget
 SOCIAL = (('GitHub', 'http://github.com/arthur-e/'),
-        ('LinkedIn', 'http://www.linkedin.com/in/endsley'),
-        ('BitBucket', 'http://bitbucket.org/kaendsle'),
-        ('RSS', '/feeds/blog.atom.xml'),)
+    ('BitBucket', 'http://bitbucket.org/kaendsle'),
+    ('RSS', '/feeds/blog.atom.xml'),)
 
 DEFAULT_PAGINATION = 10
 
