@@ -56,9 +56,9 @@ LINKS = (('Michigan Tech Research Institute', 'http://www.mtri.org/'),
 
 # Should be (date, title, URL, journal name)
 PUBLICATIONS = (
+    ('2020-12', 'Satellite monitoring of global surface soil organic carbon...', 'https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2020JG006100', 'JGR: Biogeosciences'),
     ('2020-12', 'Monitoring crop status...using the SMAP Level 4 Carbon product', 'https://www.frontiersin.org/articles/10.3389/fdata.2020.597720/abstract', 'Frontiers in Big Data'),
-    ('2019-01', '...Soil moisture monitoring...in a mountain watershed', 'https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2018WR023653', 'Water Resources Research'),
-    ('2018-04', '...Disparities in urban and metropolitan vegetation', 'https://doi.org/10.1007/s10021-018-0242-4', 'Ecosystems'),)
+    ('2019-01', '...Soil moisture monitoring...in a mountain watershed', 'https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2018WR023653', 'Water Resources Research'))
 
 # Social widget
 SOCIAL = (('GitHub', 'http://github.com/arthur-e/'),
