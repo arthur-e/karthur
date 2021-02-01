@@ -91,7 +91,7 @@ THUMBNAIL_DIR = 'images/thumbs'
 BANNER = 'theme/images/LA_county.jpg'
 BANNER_TITLE = 'Computational Geoscience & Remote Sensing'
 BANNER_SUBTITLE = '''
-I write about systematic observation, modeling, and analysis of the Earth's surface changes&mdash;<a href="https://doi.org/10.1007/s10021-018-0242-4">I currently study the human factors driving urban land-cover changes <i class="fa fa-external-link-square"></i></a>
+I write about systematic observation, modeling, and analysis of the Earth's surface changes&mdash;<a href="https://eos.org/research-spotlights/a-global-look-at-surface-soil-organic-carbon">I currently study patterns and trends in the terrestrial carbon cycle <i class="fa fa-external-link-square"></i></a>
 '''
 BOOTSTRAP_THEME = 'sandstone'
 CC_LICENSE = 'CC-BY-SA'
