@@ -40,7 +40,7 @@ cd $VENV_DIR
 source $VENV_DIR/retrieve.sh $USERNAME
 
 # Update symbolic links
-rm /usr/local/dev/karthur/content/pages/cv.md
+unlink /usr/local/dev/karthur/content/pages/cv.md
 ln -s ~/Sync/Documents/CV.md /usr/local/dev/karthur/content/pages/cv.md
-rm /usr/local/dev/karthur/content/static/docs/Endsley_CV.pdf
+unlink /usr/local/dev/karthur/content/static/docs/Endsley_CV.pdf
 ln -s ~/Sync/Documents/Endsley_CV.pdf /usr/local/dev/karthur/content/static/docs/Endsley_CV.pdf

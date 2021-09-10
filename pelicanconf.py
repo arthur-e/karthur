@@ -20,6 +20,7 @@ TYPOGRIFY = False
 DISPLAY_PAGES_ON_MENU = True
 MY_EMAIL_ADDR = 'endsley@umich.edu'
 MY_UNICODE_EMAIL_ADDR = '&#101;&#110;&#100;&#115;&#108;&#101;&#121;&#64;&#117;&#109;&#105;&#99;&#104;&#46;&#101;&#100;&#117;'
+MY_GOOGLE_SCHOLAR = 'https://scholar.google.com/citations?user=BVkU3hcAAAAJ&hl=en'
 
 ARTICLE_PATHS = ['blog']
 ARTICLE_SAVE_AS = '{date:%Y}/{slug}.html'
@@ -48,10 +49,10 @@ AUTHOR_FEED_RSS = None
 RELATED_POSTS_MAX = 3
 
 # Blogroll
-LINKS = (('Michigan Tech Research Institute', 'http://www.mtri.org/'),
-        ('UMich School for Environment and Sustainability', 'http://seas.umich.edu/'),
-        ('Great Lakes Remote Sensing', 'http://www.greatlakesremotesensing.org/'),
+LINKS = (('Numerical Terradynamic Simulation Group', 'https://ntsg.umt.edu/'),
+        ('W.A. Franke College of Forestry and Conservation', 'https://www.cfc.umt.edu/'),
         ('Rapid Response Erosion Database', 'http://geodjango.mtri.org/geowepp/'),
+        ('Great Lakes Remote Sensing', 'http://www.greatlakesremotesensing.org/'),
         ('Bering Glacier Monitoring', 'http://www.beringglacier.org/'),)
 
 # Should be (date, title, URL, journal name)
