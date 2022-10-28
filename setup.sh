@@ -10,6 +10,11 @@ sudo chown $USERNAME pelican
 cd pelican
 git clone https://github.com/getpelican/pelican-plugins
 
+# Fixing feed_summary in pelican-plugins; see:
+#   https://stackoverflow.com/questions/71645272/importerror-cannot-import-name-markup-from-jinja2
+sed -i "s/from jinja2 import Markup/from jinja2.utils import markupsafe\nMarkup = markupsafe.Markup/"\
+  /usr/local/pelican/pelican-plugins/feed_summary/feed_summary.py
+
 # Temporary fix for render_math
 # cd pelican-plugins
 # git checkout 560b6ad61ade9e73d7482abdf4d8287032817631
