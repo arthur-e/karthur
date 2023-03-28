@@ -57,9 +57,9 @@ LINKS = (('Numerical Terradynamic Simulation Group', 'https://ntsg.umt.edu/'),
 
 # Should be (date, title, URL, journal name)
 PUBLICATIONS = (
-    ('2021-05', 'Impacts of climate and wildfire on GPP...in Alaska', 'https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2020JG006078', 'JGR: Biogeosciences'),
-    ('2020-12', 'Satellite monitoring of global surface soil organic carbon...', 'https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2020JG006100', 'JGR: Biogeosciences'),
-    ('2020-12', 'Monitoring crop status...using the SMAP Level 4 Carbon product', 'https://www.frontiersin.org/articles/10.3389/fdata.2020.597720/abstract', 'Frontiers in Big Data'),)
+    ('2023-01', 'Carbon uptake in Eurasian Boreal forests...', 'https://onlinelibrary.wiley.com/doi/10.1111/gcb.16553', 'Global Change Biology'),
+    ('2022-03', 'Soil respiration phenology...in northern hemisphere', 'https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2021MS002804', 'JAMES'),
+    ('2021-05', 'Impacts of climate and wildfire on GPP...in Alaska', 'https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2020JG006078', 'JGR: Biogeosciences'),)
 
 # Social widget
 SOCIAL = (('GitHub', 'http://github.com/arthur-e/'),
