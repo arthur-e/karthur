@@ -3,11 +3,13 @@
       <hr>
       <div class="row">
          {% if articles %}
-            {% set copy_date = articles[0].date.strftime('%Y') %}
+            {% set first_date = articles[-1].date.strftime('%Y') %}
+            {% set last_date = articles[0].date.strftime('%Y') %}
          {% else %}
-            {% set copy_date = '' %}
+            {% set first_date = '' %}
+            {% set last_date = '' %}
          {% endif %}
-         <div class="col-xs-10">&copy; {{ copy_date }} {{ AUTHOR }}
+         <div class="col-xs-10">&copy; {{ first_date }}-{{ last_date }} {{ AUTHOR }}
             &middot; Powered by <i class="fa fa-linux"></i>
             <a href="http://ubuntu.com/" target="_blank">Ubuntu GNU/Linux</a>,
             <a href="https://www.python.org/" target="_blank">Python</a> and
