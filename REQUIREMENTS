@@ -6,7 +6,7 @@ Markdown>=3.2.1
 MarkupSafe>=1.1.1
 pelican>=4.2.0
 pelican-render-math>=1.0.3
-Pillow>=7.1.1
+Pillow==9.5.0
 Pygments>=2.6.1
 python-dateutil>=2.8.1
 pytz>=2019.3
